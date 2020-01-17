@@ -1,0 +1,433 @@
+Determining if the include file link.h exists failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d1b2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6d1b2.dir/build.make CMakeFiles/cmTC_6d1b2.dir/build
+Building C object CMakeFiles/cmTC_6d1b2.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_6d1b2.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'link.h' file not found
+#include <link.h>
+         ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6d1b2.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_6d1b2/fast] Error 2
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84a2b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_84a2b.dir/build.make CMakeFiles/cmTC_84a2b.dir/build
+Building C object CMakeFiles/cmTC_84a2b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_84a2b.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'valgrind/valgrind.h' file not found
+#include <valgrind/valgrind.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_84a2b.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_84a2b/fast] Error 2
+
+
+Determining if the include file CrashReporterClient.h exists failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b971/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8b971.dir/build.make CMakeFiles/cmTC_8b971.dir/build
+Building C object CMakeFiles/cmTC_8b971.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_8b971.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'CrashReporterClient.h' file not found
+#include <CrashReporterClient.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8b971.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_8b971/fast] Error 2
+
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6368/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b6368.dir/build.make CMakeFiles/cmTC_b6368.dir/build
+Building C object CMakeFiles/cmTC_b6368.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_b6368.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6368
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6368.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b6368.dir/CheckFunctionExists.c.o  -o cmTC_b6368 -lrt -lm 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b6368] Error 1
+make: *** [cmTC_b6368/fast] Error 2
+
+
+Determining if the function pfm_initialize exists in the pfm failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50a7e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_50a7e.dir/build.make CMakeFiles/cmTC_50a7e.dir/build
+Building C object CMakeFiles/cmTC_50a7e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pfm_initialize   -o CMakeFiles/cmTC_50a7e.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_50a7e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50a7e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pfm_initialize -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_50a7e.dir/CheckFunctionExists.c.o  -o cmTC_50a7e -lpfm -lm 
+ld: library not found for -lpfm
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_50a7e] Error 1
+make: *** [cmTC_50a7e/fast] Error 2
+
+
+Determining if the function setupterm exists in the terminfo failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6dcff/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6dcff.dir/build.make CMakeFiles/cmTC_6dcff.dir/build
+Building C object CMakeFiles/cmTC_6dcff.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_6dcff.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6dcff
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dcff.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6dcff.dir/CheckFunctionExists.c.o  -o cmTC_6dcff -lterminfo -lm 
+ld: library not found for -lterminfo
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6dcff] Error 1
+make: *** [cmTC_6dcff/fast] Error 2
+
+
+Determining if the function setupterm exists in the tinfo failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8e00/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c8e00.dir/build.make CMakeFiles/cmTC_c8e00.dir/build
+Building C object CMakeFiles/cmTC_c8e00.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_c8e00.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c8e00
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8e00.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c8e00.dir/CheckFunctionExists.c.o  -o cmTC_c8e00 -ltinfo -lm 
+ld: library not found for -ltinfo
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c8e00] Error 1
+make: *** [cmTC_c8e00/fast] Error 2
+
+
+Determining if the posix_fallocate exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da4e2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_da4e2.dir/build.make CMakeFiles/cmTC_da4e2.dir/build
+Building C object CMakeFiles/cmTC_da4e2.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_da4e2.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'posix_fallocate'
+  return ((int*)(&posix_fallocate))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_da4e2.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_da4e2/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lseek64 exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12e31/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_12e31.dir/build.make CMakeFiles/cmTC_12e31.dir/build
+Building C object CMakeFiles/cmTC_12e31.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_LARGEFILE64_SOURCE  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_12e31.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: error: use of undeclared identifier 'lseek64'; did you mean 'lseek'?
+  return ((int*)(&lseek64))[argc];
+                  ^~~~~~~
+                  lseek
+/usr/include/unistd.h:464:8: note: 'lseek' declared here
+off_t    lseek(int, off_t, int);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_12e31.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_12e31/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallctl exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75bbd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_75bbd.dir/build.make CMakeFiles/cmTC_75bbd.dir/build
+Building C object CMakeFiles/cmTC_75bbd.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_75bbd.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc_np.h' file not found
+#include <malloc_np.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_75bbd.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_75bbd/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallinfo exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d89ff/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d89ff.dir/build.make CMakeFiles/cmTC_d89ff.dir/build
+Building C object CMakeFiles/cmTC_d89ff.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_d89ff.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d89ff.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d89ff/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a38fd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a38fd.dir/build.make CMakeFiles/cmTC_a38fd.dir/build
+Building C object CMakeFiles/cmTC_a38fd.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_a38fd.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'strerror_s'; did you mean 'strerror_r'?
+  return ((int*)(&strerror_s))[argc];
+                  ^~~~~~~~~~
+                  strerror_r
+/usr/include/string.h:116:6: note: 'strerror_r' declared here
+int      strerror_r(int __errnum, char *__strerrbuf, size_t __buflen);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a38fd.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_a38fd/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6661b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6661b.dir/build.make CMakeFiles/cmTC_6661b.dir/build
+Building C object CMakeFiles/cmTC_6661b.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_MTIM_TV_NSEC  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_6661b.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:7:37: error: no member named 'st_mtim' in 'struct stat'
+   (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+                ~~~~~~~~~~~~~~~~~~  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6661b.dir/src.c.o] Error 1
+make: *** [cmTC_6661b/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+   return 0;
+}
+
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16891/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_16891.dir/build.make CMakeFiles/cmTC_16891.dir/build
+Building C object CMakeFiles/cmTC_16891.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_16891.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
+  return ((int*)(&__GLIBC__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_16891.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_16891/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sched_getaffinity exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8883a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8883a.dir/build.make CMakeFiles/cmTC_8883a.dir/build
+Building C object CMakeFiles/cmTC_8883a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_8883a.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'sched_getaffinity'
+  return ((int*)(&sched_getaffinity))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8883a.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_8883a/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sched_getaffinity
+  return ((int*)(&sched_getaffinity))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CPU_COUNT exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a3db/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5a3db.dir/build.make CMakeFiles/cmTC_5a3db.dir/build
+Building C object CMakeFiles/cmTC_5a3db.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_5a3db.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'CPU_COUNT'
+  return ((int*)(&CPU_COUNT))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_5a3db.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_5a3db/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CPU_COUNT
+  return ((int*)(&CPU_COUNT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed219/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ed219.dir/build.make CMakeFiles/cmTC_ed219.dir/build
+Building CXX object CMakeFiles/cmTC_ed219.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG  -Werror=unguarded-availability-new   -Wclass-memaccess -o CMakeFiles/cmTC_ed219.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wclass-memaccess'; did you mean '-Wclass-varargs'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_ed219
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed219.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ed219.dir/src.cxx.o  -o cmTC_ed219 -lm 
+
+Source file was:
+int main() { return 0; }
+Determining if the os_signpost_interval_begin exist failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef78b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ef78b.dir/build.make CMakeFiles/cmTC_ef78b.dir/build
+Building C object CMakeFiles/cmTC_ef78b.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wdelete-non-virtual-dtor -Wstring-conversion  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_ef78b.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'os/signpost.h' file not found
+#include <os/signpost.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ef78b.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_ef78b/fast] Error 2
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <os/signpost.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef os_signpost_interval_begin
+  return ((int*)(&os_signpost_interval_begin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bae5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0bae5.dir/build.make CMakeFiles/cmTC_0bae5.dir/build
+Building CXX object CMakeFiles/cmTC_0bae5.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -Werror=unguarded-availability-new -wd654   -wd654 -o CMakeFiles/cmTC_0bae5.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd654'
+clang: error: unknown argument: '-wd654'
+make[1]: *** [CMakeFiles/cmTC_0bae5.dir/src.cxx.o] Error 1
+make: *** [cmTC_0bae5/fast] Error 2
+
+Source file was:
+int main() { return 0; }

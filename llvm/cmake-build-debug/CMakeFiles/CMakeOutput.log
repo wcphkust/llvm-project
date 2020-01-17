@@ -1,0 +1,2095 @@
+The system is: Darwin - 17.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8293/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a8293.dir/build.make CMakeFiles/cmTC_a8293.dir/build
+Building C object CMakeFiles/cmTC_a8293.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_a8293.dir/testCCompiler.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a8293
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8293.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a8293.dir/testCCompiler.c.o  -o cmTC_a8293 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4d2c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4d2c.dir/build.make CMakeFiles/cmTC_d4d2c.dir/build
+Building C object CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d4d2c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4d2c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o  -o cmTC_d4d2c 
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_d4d2c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d4d2c/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4d2c.dir/build.make CMakeFiles/cmTC_d4d2c.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d4d2c]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4d2c.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o  -o cmTC_d4d2c ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_d4d2c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d4d2c] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d4d2c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a3c5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2a3c5.dir/build.make CMakeFiles/cmTC_2a3c5.dir/build
+Building C object CMakeFiles/cmTC_2a3c5.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2a3c5.dir/feature_tests.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2a3c5
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a3c5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a3c5.dir/feature_tests.c.o  -o cmTC_2a3c5 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfa87/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dfa87.dir/build.make CMakeFiles/cmTC_dfa87.dir/build
+Building C object CMakeFiles/cmTC_dfa87.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_dfa87.dir/feature_tests.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dfa87
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfa87.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dfa87.dir/feature_tests.c.o  -o cmTC_dfa87 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed920/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ed920.dir/build.make CMakeFiles/cmTC_ed920.dir/build
+Building C object CMakeFiles/cmTC_ed920.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_ed920.dir/feature_tests.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ed920
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed920.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ed920.dir/feature_tests.c.o  -o cmTC_ed920 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22d8c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_22d8c.dir/build.make CMakeFiles/cmTC_22d8c.dir/build
+Building CXX object CMakeFiles/cmTC_22d8c.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_22d8c.dir/testCXXCompiler.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_22d8c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22d8c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22d8c.dir/testCXXCompiler.cxx.o  -o cmTC_22d8c 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e1b7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7e1b7.dir/build.make CMakeFiles/cmTC_7e1b7.dir/build
+Building CXX object CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7e1b7
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e1b7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7e1b7 
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_7e1b7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7e1b7/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7e1b7.dir/build.make CMakeFiles/cmTC_7e1b7.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7e1b7]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e1b7.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7e1b7 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_7e1b7 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7e1b7] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_7e1b7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a101/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1a101.dir/build.make CMakeFiles/cmTC_1a101.dir/build
+Building CXX object CMakeFiles/cmTC_1a101.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_1a101.dir/feature_tests.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1a101
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a101.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1a101.dir/feature_tests.cxx.o  -o cmTC_1a101 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ae54/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1ae54.dir/build.make CMakeFiles/cmTC_1ae54.dir/build
+Building CXX object CMakeFiles/cmTC_1ae54.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_1ae54.dir/feature_tests.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1ae54
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ae54.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1ae54.dir/feature_tests.cxx.o  -o cmTC_1ae54 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fe13/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7fe13.dir/build.make CMakeFiles/cmTC_7fe13.dir/build
+Building CXX object CMakeFiles/cmTC_7fe13.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7fe13.dir/feature_tests.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7fe13
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fe13.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7fe13.dir/feature_tests.cxx.o  -o cmTC_7fe13 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04bd6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_04bd6.dir/build.make CMakeFiles/cmTC_04bd6.dir/build
+Building CXX object CMakeFiles/cmTC_04bd6.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_04bd6.dir/feature_tests.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_04bd6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04bd6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_04bd6.dir/feature_tests.cxx.o  -o cmTC_04bd6 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_def9b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_def9b.dir/build.make CMakeFiles/cmTC_def9b.dir/build
+Building C object CMakeFiles/cmTC_def9b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_def9b.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_def9b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_def9b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_def9b.dir/CheckIncludeFile.c.o  -o cmTC_def9b 
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73901/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_73901.dir/build.make CMakeFiles/cmTC_73901.dir/build
+Building C object CMakeFiles/cmTC_73901.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_73901.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73901
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73901.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_73901.dir/CheckIncludeFile.c.o  -o cmTC_73901 
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be74f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_be74f.dir/build.make CMakeFiles/cmTC_be74f.dir/build
+Building C object CMakeFiles/cmTC_be74f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_be74f.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_be74f
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be74f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_be74f.dir/CheckIncludeFile.c.o  -o cmTC_be74f 
+
+
+Determining if the include file malloc/malloc.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_835cc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_835cc.dir/build.make CMakeFiles/cmTC_835cc.dir/build
+Building C object CMakeFiles/cmTC_835cc.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_835cc.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_835cc
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_835cc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_835cc.dir/CheckIncludeFile.c.o  -o cmTC_835cc 
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcd0a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fcd0a.dir/build.make CMakeFiles/cmTC_fcd0a.dir/build
+Building C object CMakeFiles/cmTC_fcd0a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_fcd0a.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fcd0a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd0a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fcd0a.dir/CheckIncludeFile.c.o  -o cmTC_fcd0a 
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72a52/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_72a52.dir/build.make CMakeFiles/cmTC_72a52.dir/build
+Building C object CMakeFiles/cmTC_72a52.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_72a52.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_72a52
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72a52.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72a52.dir/CheckIncludeFile.c.o  -o cmTC_72a52 
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91ebb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_91ebb.dir/build.make CMakeFiles/cmTC_91ebb.dir/build
+Building C object CMakeFiles/cmTC_91ebb.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_91ebb.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_91ebb
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91ebb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_91ebb.dir/CheckIncludeFile.c.o  -o cmTC_91ebb 
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c9a8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6c9a8.dir/build.make CMakeFiles/cmTC_6c9a8.dir/build
+Building C object CMakeFiles/cmTC_6c9a8.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_6c9a8.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6c9a8
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c9a8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6c9a8.dir/CheckIncludeFile.c.o  -o cmTC_6c9a8 
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2385f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2385f.dir/build.make CMakeFiles/cmTC_2385f.dir/build
+Building C object CMakeFiles/cmTC_2385f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_2385f.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2385f
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2385f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2385f.dir/CheckIncludeFile.c.o  -o cmTC_2385f 
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e488/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7e488.dir/build.make CMakeFiles/cmTC_7e488.dir/build
+Building C object CMakeFiles/cmTC_7e488.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_7e488.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7e488
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e488.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7e488.dir/CheckIncludeFile.c.o  -o cmTC_7e488 
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f324b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f324b.dir/build.make CMakeFiles/cmTC_f324b.dir/build
+Building C object CMakeFiles/cmTC_f324b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_f324b.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f324b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f324b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f324b.dir/CheckIncludeFile.c.o  -o cmTC_f324b 
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1261/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d1261.dir/build.make CMakeFiles/cmTC_d1261.dir/build
+Building C object CMakeFiles/cmTC_d1261.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_d1261.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d1261
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1261.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d1261.dir/CheckIncludeFile.c.o  -o cmTC_d1261 
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8eae4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8eae4.dir/build.make CMakeFiles/cmTC_8eae4.dir/build
+Building C object CMakeFiles/cmTC_8eae4.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_8eae4.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8eae4
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eae4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8eae4.dir/CheckIncludeFile.c.o  -o cmTC_8eae4 
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32b8b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_32b8b.dir/build.make CMakeFiles/cmTC_32b8b.dir/build
+Building C object CMakeFiles/cmTC_32b8b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_32b8b.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_32b8b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32b8b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_32b8b.dir/CheckIncludeFile.c.o  -o cmTC_32b8b 
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b627/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7b627.dir/build.make CMakeFiles/cmTC_7b627.dir/build
+Building C object CMakeFiles/cmTC_7b627.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_7b627.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b627
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b627.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b627.dir/CheckIncludeFile.c.o  -o cmTC_7b627 
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a2e8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2a2e8.dir/build.make CMakeFiles/cmTC_2a2e8.dir/build
+Building C object CMakeFiles/cmTC_2a2e8.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_2a2e8.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2a2e8
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a2e8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a2e8.dir/CheckIncludeFile.c.o  -o cmTC_2a2e8 
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a55bc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a55bc.dir/build.make CMakeFiles/cmTC_a55bc.dir/build
+Building C object CMakeFiles/cmTC_a55bc.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_a55bc.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a55bc
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a55bc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a55bc.dir/CheckSymbolExists.c.o  -o cmTC_a55bc -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0162/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e0162.dir/build.make CMakeFiles/cmTC_e0162.dir/build
+Building C object CMakeFiles/cmTC_e0162.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_e0162.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e0162
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0162.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0162.dir/CheckSymbolExists.c.o  -o cmTC_e0162 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file mach/mach.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68b80/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_68b80.dir/build.make CMakeFiles/cmTC_68b80.dir/build
+Building C object CMakeFiles/cmTC_68b80.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_68b80.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_68b80
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68b80.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_68b80.dir/CheckIncludeFile.c.o  -o cmTC_68b80 
+
+
+Determining if the include file histedit.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9df9a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9df9a.dir/build.make CMakeFiles/cmTC_9df9a.dir/build
+Building C object CMakeFiles/cmTC_9df9a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_9df9a.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9df9a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9df9a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9df9a.dir/CheckIncludeFile.c.o  -o cmTC_9df9a 
+
+
+Performing C SOURCE FILE Test HAVE_CRASHREPORTER_INFO succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed597/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ed597.dir/build.make CMakeFiles/cmTC_ed597.dir/build
+Building C object CMakeFiles/cmTC_ed597.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_CRASHREPORTER_INFO   -o CMakeFiles/cmTC_ed597.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ed597
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed597.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE_CRASHREPORTER_INFO -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ed597.dir/src.c.o  -o cmTC_ed597 -lm 
+
+Source file was:
+
+     static const char *__crashreporter_info__ = 0;
+     asm(".desc ___crashreporter_info__, 0x10");
+     int main() { return 0; }
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff665/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ff665.dir/build.make CMakeFiles/cmTC_ff665.dir/build
+Building C object CMakeFiles/cmTC_ff665.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ff665.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff665
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff665.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ff665.dir/CheckFunctionExists.c.o  -o cmTC_ff665 -lpthread -lm 
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a38cc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a38cc.dir/build.make CMakeFiles/cmTC_a38cc.dir/build
+Building C object CMakeFiles/cmTC_a38cc.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTC_a38cc.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a38cc
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a38cc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a38cc.dir/CheckFunctionExists.c.o  -o cmTC_a38cc -lpthread -lm 
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95b35/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_95b35.dir/build.make CMakeFiles/cmTC_95b35.dir/build
+Building C object CMakeFiles/cmTC_95b35.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTC_95b35.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95b35
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95b35.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_95b35.dir/CheckFunctionExists.c.o  -o cmTC_95b35 -lpthread -lm 
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb111/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_eb111.dir/build.make CMakeFiles/cmTC_eb111.dir/build
+Building C object CMakeFiles/cmTC_eb111.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock   -o CMakeFiles/cmTC_eb111.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb111
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb111.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_eb111.dir/CheckFunctionExists.c.o  -o cmTC_eb111 -lpthread -lm 
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23dc4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_23dc4.dir/build.make CMakeFiles/cmTC_23dc4.dir/build
+Building C object CMakeFiles/cmTC_23dc4.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_23dc4.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23dc4
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23dc4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_23dc4.dir/CheckFunctionExists.c.o  -o cmTC_23dc4 -ldl -lm 
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76800/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_76800.dir/build.make CMakeFiles/cmTC_76800.dir/build
+Building C object CMakeFiles/cmTC_76800.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_76800.dir/CheckIncludeFile.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_76800
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76800.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76800.dir/CheckIncludeFile.c.o  -o cmTC_76800 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4188/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e4188.dir/build.make CMakeFiles/cmTC_e4188.dir/build
+Building C object CMakeFiles/cmTC_e4188.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_e4188.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e4188
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4188.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e4188.dir/CheckSymbolExists.c.o  -o cmTC_e4188 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function el_init exists in the edit passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76179/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_76179.dir/build.make CMakeFiles/cmTC_76179.dir/build
+Building C object CMakeFiles/cmTC_76179.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=el_init   -o CMakeFiles/cmTC_76179.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76179
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76179.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=el_init -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76179.dir/CheckFunctionExists.c.o  -o cmTC_76179 -ledit -lm 
+
+
+Determining if the function setupterm exists in the curses passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd451/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fd451.dir/build.make CMakeFiles/cmTC_fd451.dir/build
+Building C object CMakeFiles/cmTC_fd451.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_fd451.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fd451
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd451.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fd451.dir/CheckFunctionExists.c.o  -o cmTC_fd451 -lcurses -lm 
+
+
+Determining if the function xar_open exists in the xar passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6dc59/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6dc59.dir/build.make CMakeFiles/cmTC_6dc59.dir/build
+Building C object CMakeFiles/cmTC_6dc59.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xar_open   -o CMakeFiles/cmTC_6dc59.dir/CheckFunctionExists.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6dc59
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dc59.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=xar_open -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6dc59.dir/CheckFunctionExists.c.o  -o cmTC_6dc59 -lxar -lm 
+
+
+Determining if the arc4random exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3337e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3337e.dir/build.make CMakeFiles/cmTC_3337e.dir/build
+Building C object CMakeFiles/cmTC_3337e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_3337e.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3337e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3337e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3337e.dir/CheckSymbolExists.c.o  -o cmTC_3337e -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f56c8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f56c8.dir/build.make CMakeFiles/cmTC_f56c8.dir/build
+Building C object CMakeFiles/cmTC_f56c8.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_f56c8.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f56c8
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f56c8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f56c8.dir/CheckSymbolExists.c.o  -o cmTC_f56c8 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8fda6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8fda6.dir/build.make CMakeFiles/cmTC_8fda6.dir/build
+Building C object CMakeFiles/cmTC_8fda6.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror=unguarded-availability-new -o CMakeFiles/cmTC_8fda6.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8fda6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fda6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8fda6.dir/src.c.o  -o cmTC_8fda6 -lm 
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c356/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7c356.dir/build.make CMakeFiles/cmTC_7c356.dir/build
+Building C object CMakeFiles/cmTC_7c356.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_7c356.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7c356
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c356.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c356.dir/CheckSymbolExists.c.o  -o cmTC_7c356 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c519a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c519a.dir/build.make CMakeFiles/cmTC_c519a.dir/build
+Building C object CMakeFiles/cmTC_c519a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_c519a.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c519a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c519a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c519a.dir/CheckSymbolExists.c.o  -o cmTC_c519a -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3960/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e3960.dir/build.make CMakeFiles/cmTC_e3960.dir/build
+Building C object CMakeFiles/cmTC_e3960.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_e3960.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e3960
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3960.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e3960.dir/CheckSymbolExists.c.o  -o cmTC_e3960 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_515db/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_515db.dir/build.make CMakeFiles/cmTC_515db.dir/build
+Building C object CMakeFiles/cmTC_515db.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_515db.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_515db
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_515db.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_515db.dir/CheckSymbolExists.c.o  -o cmTC_515db -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14e52/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_14e52.dir/build.make CMakeFiles/cmTC_14e52.dir/build
+Building C object CMakeFiles/cmTC_14e52.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_14e52.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_14e52
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14e52.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_14e52.dir/CheckSymbolExists.c.o  -o cmTC_14e52 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isatty exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d14c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9d14c.dir/build.make CMakeFiles/cmTC_9d14c.dir/build
+Building C object CMakeFiles/cmTC_9d14c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_9d14c.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9d14c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d14c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9d14c.dir/CheckSymbolExists.c.o  -o cmTC_9d14c -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimens exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d90f1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d90f1.dir/build.make CMakeFiles/cmTC_d90f1.dir/build
+Building C object CMakeFiles/cmTC_d90f1.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_d90f1.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d90f1
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d90f1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d90f1.dir/CheckSymbolExists.c.o  -o cmTC_d90f1 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimes exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89c2c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_89c2c.dir/build.make CMakeFiles/cmTC_89c2c.dir/build
+Building C object CMakeFiles/cmTC_89c2c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_89c2c.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_89c2c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89c2c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_89c2c.dir/CheckSymbolExists.c.o  -o cmTC_89c2c -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc_zone_statistics exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_871df/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_871df.dir/build.make CMakeFiles/cmTC_871df.dir/build
+Building C object CMakeFiles/cmTC_871df.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_871df.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_871df
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_871df.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_871df.dir/CheckSymbolExists.c.o  -o cmTC_871df -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4181d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4181d.dir/build.make CMakeFiles/cmTC_4181d.dir/build
+Building C object CMakeFiles/cmTC_4181d.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_4181d.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4181d
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4181d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4181d.dir/CheckSymbolExists.c.o  -o cmTC_4181d -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9fcdd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9fcdd.dir/build.make CMakeFiles/cmTC_9fcdd.dir/build
+Building C object CMakeFiles/cmTC_9fcdd.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_9fcdd.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9fcdd
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fcdd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9fcdd.dir/CheckSymbolExists.c.o  -o cmTC_9fcdd -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pread exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83044/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_83044.dir/build.make CMakeFiles/cmTC_83044.dir/build
+Building C object CMakeFiles/cmTC_83044.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_83044.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_83044
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83044.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_83044.dir/CheckSymbolExists.c.o  -o cmTC_83044 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sbrk exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af4ab/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_af4ab.dir/build.make CMakeFiles/cmTC_af4ab.dir/build
+Building C object CMakeFiles/cmTC_af4ab.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_af4ab.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: warning: 'sbrk' is deprecated [-Wdeprecated-declarations]
+  return ((int*)(&sbrk))[argc];
+                  ^
+/usr/include/unistd.h:585:1: note: 'sbrk' has been explicitly marked deprecated here
+__deprecated __WATCHOS_PROHIBITED __TVOS_PROHIBITED
+^
+/usr/include/sys/cdefs.h:176:37: note: expanded from macro '__deprecated'
+#define __deprecated    __attribute__((deprecated))
+                                       ^
+1 warning generated.
+Linking C executable cmTC_af4ab
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af4ab.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_af4ab.dir/CheckSymbolExists.c.o  -o cmTC_af4ab -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb027/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fb027.dir/build.make CMakeFiles/cmTC_fb027.dir/build
+Building C object CMakeFiles/cmTC_fb027.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_fb027.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fb027
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb027.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fb027.dir/CheckSymbolExists.c.o  -o cmTC_fb027 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae625/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ae625.dir/build.make CMakeFiles/cmTC_ae625.dir/build
+Building C object CMakeFiles/cmTC_ae625.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_ae625.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ae625
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae625.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ae625.dir/CheckSymbolExists.c.o  -o cmTC_ae625 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab2f8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ab2f8.dir/build.make CMakeFiles/cmTC_ab2f8.dir/build
+Building C object CMakeFiles/cmTC_ab2f8.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_ab2f8.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ab2f8
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab2f8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab2f8.dir/CheckSymbolExists.c.o  -o cmTC_ab2f8 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c429/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0c429.dir/build.make CMakeFiles/cmTC_0c429.dir/build
+Building C object CMakeFiles/cmTC_0c429.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_0c429.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0c429
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c429.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0c429.dir/CheckSymbolExists.c.o  -o cmTC_0c429 -lm -ldl 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dladdr exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9ec9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a9ec9.dir/build.make CMakeFiles/cmTC_a9ec9.dir/build
+Building C object CMakeFiles/cmTC_a9ec9.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_a9ec9.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a9ec9
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9ec9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9ec9.dir/CheckSymbolExists.c.o  -o cmTC_a9ec9 -lm -ldl 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcd7c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dcd7c.dir/build.make CMakeFiles/cmTC_dcd7c.dir/build
+Building C object CMakeFiles/cmTC_dcd7c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_dcd7c.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dcd7c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcd7c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DHAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dcd7c.dir/src.c.o  -o cmTC_dcd7c -lm 
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+   return 0;
+}
+
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_280e2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_280e2.dir/build.make CMakeFiles/cmTC_280e2.dir/build
+Building C object CMakeFiles/cmTC_280e2.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_280e2.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_280e2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_280e2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_280e2.dir/CheckSymbolExists.c.o  -o cmTC_280e2 -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6b8a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c6b8a.dir/build.make CMakeFiles/cmTC_c6b8a.dir/build
+Building C object CMakeFiles/cmTC_c6b8a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_c6b8a.dir/CheckSymbolExists.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c6b8a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b8a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c6b8a.dir/CheckSymbolExists.c.o  -o cmTC_c6b8a -lm 
+
+File /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_STD_IS_TRIVIALLY_COPYABLE succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f63cf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f63cf.dir/build.make CMakeFiles/cmTC_f63cf.dir/build
+Building CXX object CMakeFiles/cmTC_f63cf.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DHAVE_STD_IS_TRIVIALLY_COPYABLE  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_f63cf.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f63cf
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f63cf.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DHAVE_STD_IS_TRIVIALLY_COPYABLE  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f63cf.dir/src.cxx.o  -o cmTC_f63cf -lm 
+
+Source file was:
+
+#include <type_traits>
+struct T { int val; };
+static_assert(std::is_trivially_copyable<T>::value, "ok");
+int main() { return 0;}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1fef/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f1fef.dir/build.make CMakeFiles/cmTC_f1fef.dir/build
+Building CXX object CMakeFiles/cmTC_f1fef.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -Werror=unguarded-availability-new -std=c++11   -o CMakeFiles/cmTC_f1fef.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f1fef
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1fef.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -Werror=unguarded-availability-new -std=c++11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f1fef.dir/src.cxx.o  -o cmTC_f1fef -lm 
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d207/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2d207.dir/build.make CMakeFiles/cmTC_2d207.dir/build
+Building CXX object CMakeFiles/cmTC_2d207.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_2d207.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2d207
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d207.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2d207.dir/src.cxx.o  -o cmTC_2d207 -lm 
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a06b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6a06b.dir/build.make CMakeFiles/cmTC_6a06b.dir/build
+Building CXX object CMakeFiles/cmTC_6a06b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DLLVM_HAS_ATOMICS  -Werror=unguarded-availability-new   -o CMakeFiles/cmTC_6a06b.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6a06b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a06b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DLLVM_HAS_ATOMICS  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6a06b.dir/src.cxx.o  -o cmTC_6a06b -lm 
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63ad7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_63ad7.dir/build.make CMakeFiles/cmTC_63ad7.dir/build
+Building CXX object CMakeFiles/cmTC_63ad7.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DSUPPORTS_VARIADIC_MACROS_FLAG  -Werror=unguarded-availability-new   -Wvariadic-macros -o CMakeFiles/cmTC_63ad7.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_63ad7
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63ad7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DSUPPORTS_VARIADIC_MACROS_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_63ad7.dir/src.cxx.o  -o cmTC_63ad7 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_376f6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_376f6.dir/build.make CMakeFiles/cmTC_376f6.dir/build
+Building CXX object CMakeFiles/cmTC_376f6.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG  -Werror=unguarded-availability-new   -Wgnu-zero-variadic-macro-arguments -o CMakeFiles/cmTC_376f6.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_376f6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_376f6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_376f6.dir/src.cxx.o  -o cmTC_376f6 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_850fd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_850fd.dir/build.make CMakeFiles/cmTC_850fd.dir/build
+Building C object CMakeFiles/cmTC_850fd.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DC_SUPPORTS_FPIC  -Werror=unguarded-availability-new   -Werror -fPIC -o CMakeFiles/cmTC_850fd.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_850fd
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_850fd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DC_SUPPORTS_FPIC  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_850fd.dir/src.c.o  -o cmTC_850fd -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f493/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2f493.dir/build.make CMakeFiles/cmTC_2f493.dir/build
+Building CXX object CMakeFiles/cmTC_2f493.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXX_SUPPORTS_FPIC  -Werror=unguarded-availability-new   -Werror -fPIC -o CMakeFiles/cmTC_2f493.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2f493
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f493.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXX_SUPPORTS_FPIC  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2f493.dir/src.cxx.o  -o cmTC_2f493 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b49c1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b49c1.dir/build.make CMakeFiles/cmTC_b49c1.dir/build
+Building CXX object CMakeFiles/cmTC_b49c1.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -Werror=unguarded-availability-new   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b49c1.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b49c1
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b49c1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b49c1.dir/src.cxx.o  -o cmTC_b49c1 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22c90/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_22c90.dir/build.make CMakeFiles/cmTC_22c90.dir/build
+Building C object CMakeFiles/cmTC_22c90.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -DC_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new   -Werror -Werror=date-time -o CMakeFiles/cmTC_22c90.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_22c90
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22c90.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -fPIC -DC_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22c90.dir/src.c.o  -o cmTC_22c90 -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aaa76/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aaa76.dir/build.make CMakeFiles/cmTC_aaa76.dir/build
+Building CXX object CMakeFiles/cmTC_aaa76.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new   -Werror -Werror=date-time -o CMakeFiles/cmTC_aaa76.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aaa76
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaa76.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aaa76.dir/src.cxx.o  -o cmTC_aaa76 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc935/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bc935.dir/build.make CMakeFiles/cmTC_bc935.dir/build
+Building CXX object CMakeFiles/cmTC_bc935.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -Werror=unguarded-availability-new   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_bc935.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bc935
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc935.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bc935.dir/src.cxx.o  -o cmTC_bc935 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c92a6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c92a6.dir/build.make CMakeFiles/cmTC_c92a6.dir/build
+Building CXX object CMakeFiles/cmTC_c92a6.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -Werror=unguarded-availability-new   -Wmissing-field-initializers -o CMakeFiles/cmTC_c92a6.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c92a6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c92a6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c92a6.dir/src.cxx.o  -o cmTC_c92a6 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e8ca/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4e8ca.dir/build.make CMakeFiles/cmTC_4e8ca.dir/build
+Building C object CMakeFiles/cmTC_4e8ca.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -Werror=unguarded-availability-new   -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_4e8ca.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4e8ca
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e8ca.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4e8ca.dir/src.c.o  -o cmTC_4e8ca -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48201/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_48201.dir/build.make CMakeFiles/cmTC_48201.dir/build
+Building CXX object CMakeFiles/cmTC_48201.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -Werror=unguarded-availability-new   -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_48201.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_48201
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48201.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48201.dir/src.cxx.o  -o cmTC_48201 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3389/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a3389.dir/build.make CMakeFiles/cmTC_a3389.dir/build
+Building C object CMakeFiles/cmTC_a3389.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_a3389.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a3389
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3389.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a3389.dir/src.c.o  -o cmTC_a3389 -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efd4e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_efd4e.dir/build.make CMakeFiles/cmTC_efd4e.dir/build
+Building CXX object CMakeFiles/cmTC_efd4e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_efd4e.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_efd4e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efd4e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_efd4e.dir/src.cxx.o  -o cmTC_efd4e -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d99e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9d99e.dir/build.make CMakeFiles/cmTC_9d99e.dir/build
+Building CXX object CMakeFiles/cmTC_9d99e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG  -Werror=unguarded-availability-new   -Wnoexcept-type -o CMakeFiles/cmTC_9d99e.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d99e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d99e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9d99e.dir/src.cxx.o  -o cmTC_9d99e -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fc61/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7fc61.dir/build.make CMakeFiles/cmTC_7fc61.dir/build
+Building CXX object CMakeFiles/cmTC_7fc61.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -Werror=unguarded-availability-new -std=c++11 -Werror=non-virtual-dtor   -o CMakeFiles/cmTC_7fc61.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7fc61
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fc61.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -Werror=unguarded-availability-new -std=c++11 -Werror=non-virtual-dtor -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7fc61.dir/src.cxx.o  -o cmTC_7fc61 -lm 
+
+Source file was:
+class base {public: virtual void anchor();protected: ~base();};
+                               class derived final : public base { public: ~derived();};
+                               int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_238ea/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_238ea.dir/build.make CMakeFiles/cmTC_238ea.dir/build
+Building C object CMakeFiles/cmTC_238ea.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_238ea.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_238ea
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_238ea.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_238ea.dir/src.c.o  -o cmTC_238ea -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15036/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_15036.dir/build.make CMakeFiles/cmTC_15036.dir/build
+Building CXX object CMakeFiles/cmTC_15036.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_15036.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_15036
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15036.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_15036.dir/src.cxx.o  -o cmTC_15036 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed9d9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ed9d9.dir/build.make CMakeFiles/cmTC_ed9d9.dir/build
+Building C object CMakeFiles/cmTC_ed9d9.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror=unguarded-availability-new -Werror -Wcomment   -o CMakeFiles/cmTC_ed9d9.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ed9d9
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed9d9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror=unguarded-availability-new -Werror -Wcomment -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ed9d9.dir/src.c.o  -o cmTC_ed9d9 -lm 
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c31f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5c31f.dir/build.make CMakeFiles/cmTC_5c31f.dir/build
+Building C object CMakeFiles/cmTC_5c31f.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new   -Werror -Wstring-conversion -o CMakeFiles/cmTC_5c31f.dir/src.c.o   -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5c31f
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c31f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -fPIC -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wdelete-non-virtual-dtor -DC_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5c31f.dir/src.c.o  -o cmTC_5c31f -lm 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78df0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_78df0.dir/build.make CMakeFiles/cmTC_78df0.dir/build
+Building CXX object CMakeFiles/cmTC_78df0.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new   -Werror -Wstring-conversion -o CMakeFiles/cmTC_78df0.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_78df0
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78df0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -Werror=unguarded-availability-new -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_78df0.dir/src.cxx.o  -o cmTC_78df0 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a271/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2a271.dir/build.make CMakeFiles/cmTC_2a271.dir/build
+Building CXX object CMakeFiles/cmTC_2a271.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -DHAVE_CXX_FLAG_STD_CXX11  -Werror=unguarded-availability-new -std=c++11   -std=c++11 -o CMakeFiles/cmTC_2a271.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2a271
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a271.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -DHAVE_CXX_FLAG_STD_CXX11  -Werror=unguarded-availability-new -std=c++11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a271.dir/src.cxx.o  -o cmTC_2a271 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4f33/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b4f33.dir/build.make CMakeFiles/cmTC_b4f33.dir/build
+Building CXX object CMakeFiles/cmTC_b4f33.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Werror=unguarded-availability-new -Wall   -Wall -o CMakeFiles/cmTC_b4f33.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b4f33
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f33.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Werror=unguarded-availability-new -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b4f33.dir/src.cxx.o  -o cmTC_b4f33 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2848/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f2848.dir/build.make CMakeFiles/cmTC_f2848.dir/build
+Building CXX object CMakeFiles/cmTC_f2848.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Werror=unguarded-availability-new -Wextra   -Wextra -o CMakeFiles/cmTC_f2848.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f2848
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2848.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Werror=unguarded-availability-new -Wextra -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f2848.dir/src.cxx.o  -o cmTC_f2848 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_772ed/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_772ed.dir/build.make CMakeFiles/cmTC_772ed.dir/build
+Building CXX object CMakeFiles/cmTC_772ed.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Werror=unguarded-availability-new -Wshadow   -Wshadow -o CMakeFiles/cmTC_772ed.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_772ed
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_772ed.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Werror=unguarded-availability-new -Wshadow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_772ed.dir/src.cxx.o  -o cmTC_772ed -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a55a2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a55a2.dir/build.make CMakeFiles/cmTC_a55a2.dir/build
+Building CXX object CMakeFiles/cmTC_a55a2.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -Werror=unguarded-availability-new -pedantic   -pedantic -o CMakeFiles/cmTC_a55a2.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a55a2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a55a2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -Werror=unguarded-availability-new -pedantic -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a55a2.dir/src.cxx.o  -o cmTC_a55a2 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e654/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8e654.dir/build.make CMakeFiles/cmTC_8e654.dir/build
+Building CXX object CMakeFiles/cmTC_8e654.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Werror=unguarded-availability-new -pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_8e654.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8e654
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e654.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Werror=unguarded-availability-new -pedantic-errors -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8e654.dir/src.cxx.o  -o cmTC_8e654 -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d66a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8d66a.dir/build.make CMakeFiles/cmTC_8d66a.dir/build
+Building CXX object CMakeFiles/cmTC_8d66a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Werror=unguarded-availability-new -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_8d66a.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8d66a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d66a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Werror=unguarded-availability-new -Wshorten-64-to-32 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8d66a.dir/src.cxx.o  -o cmTC_8d66a -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1940e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1940e.dir/build.make CMakeFiles/cmTC_1940e.dir/build
+Building CXX object CMakeFiles/cmTC_1940e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Werror=unguarded-availability-new -Wfloat-equal   -Wfloat-equal -o CMakeFiles/cmTC_1940e.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1940e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1940e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Werror=unguarded-availability-new -Wfloat-equal -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1940e.dir/src.cxx.o  -o cmTC_1940e -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f30b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4f30b.dir/build.make CMakeFiles/cmTC_4f30b.dir/build
+Building CXX object CMakeFiles/cmTC_4f30b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Werror=unguarded-availability-new -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_4f30b.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4f30b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f30b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Werror=unguarded-availability-new -fstrict-aliasing -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4f30b.dir/src.cxx.o  -o cmTC_4f30b -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a3bc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2a3bc.dir/build.make CMakeFiles/cmTC_2a3bc.dir/build
+Building CXX object CMakeFiles/cmTC_2a3bc.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -Werror=unguarded-availability-new -fno-exceptions   -fno-exceptions -o CMakeFiles/cmTC_2a3bc.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2a3bc
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a3bc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -Werror=unguarded-availability-new -fno-exceptions -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a3bc.dir/src.cxx.o  -o cmTC_2a3bc -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d30ae/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d30ae.dir/build.make CMakeFiles/cmTC_d30ae.dir/build
+Building CXX object CMakeFiles/cmTC_d30ae.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Werror=unguarded-availability-new -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_d30ae.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d30ae
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d30ae.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Werror=unguarded-availability-new -Wstrict-aliasing -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d30ae.dir/src.cxx.o  -o cmTC_d30ae -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2955e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2955e.dir/build.make CMakeFiles/cmTC_2955e.dir/build
+Building CXX object CMakeFiles/cmTC_2955e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Werror=unguarded-availability-new -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_2955e.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2955e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2955e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Werror=unguarded-availability-new -Wthread-safety -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2955e.dir/src.cxx.o  -o cmTC_2955e -lm 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8db9f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8db9f.dir/build.make CMakeFiles/cmTC_8db9f.dir/build
+Building CXX object CMakeFiles/cmTC_8db9f.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -DHAVE_CXX_FLAG_COVERAGE  -Werror=unguarded-availability-new --coverage   --coverage -o CMakeFiles/cmTC_8db9f.dir/src.cxx.o -c /Users/chasen/Documents/CodeBase/llvm-project/llvm/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8db9f
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8db9f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -DHAVE_CXX_FLAG_COVERAGE  -Werror=unguarded-availability-new --coverage -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8db9f.dir/src.cxx.o  -o cmTC_8db9f -lm 
+
+Source file was:
+int main() { return 0; }
